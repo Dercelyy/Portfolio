@@ -1,0 +1,373 @@
+Array
+(
+    [result] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [product_id] => 1026852100
+                            [offer_id] => 70*140 Камея 430 Крем-брюле
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [product_id] => 1026852101
+                            [offer_id] => 50*90 Камея 430 Лаванда
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [product_id] => 1026852102
+                            [offer_id] => 50*90 Лондон 430 Графит
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [product_id] => 1026852104
+                            [offer_id] => 70*140 Лондон 430 Серо-коричневый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [product_id] => 1026852105
+                            [offer_id] => 100*150 Перманент 400  Фиолетовый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [product_id] => 1026852106
+                            [offer_id] => 50*70 ГК Темно-коричневый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [6] => Array
+                        (
+                            [product_id] => 1026852107
+                            [offer_id] => 50*90 Камея 430 Крем-брюле
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [7] => Array
+                        (
+                            [product_id] => 1026852108
+                            [offer_id] => 50*90 Шарм 430 Кокос
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [8] => Array
+                        (
+                            [product_id] => 1026852111
+                            [offer_id] => 50*90 Камея 430 Коралл
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [9] => Array
+                        (
+                            [product_id] => 1026852112
+                            [offer_id] => 100*150 Перманент 400 Морская волна
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [10] => Array
+                        (
+                            [product_id] => 1026852113
+                            [offer_id] => 70*140 Камея 430 Коралл
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [11] => Array
+                        (
+                            [product_id] => 1026852114
+                            [offer_id] => 50*100 Перманент 400 Фиолетовый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [12] => Array
+                        (
+                            [product_id] => 1026852115
+                            [offer_id] => 50*90 Лондон 430 Серо-коричневый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [13] => Array
+                        (
+                            [product_id] => 1026852116
+                            [offer_id] => 70*140 Шарм 430 Кокос
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [14] => Array
+                        (
+                            [product_id] => 1026852117
+                            [offer_id] => 50*90 Шарм 430 Пепельный
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [15] => Array
+                        (
+                            [product_id] => 1026852118
+                            [offer_id] => 50*100 Перманент 400 Морская волна
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [16] => Array
+                        (
+                            [product_id] => 1026852119
+                            [offer_id] => 50*100 Перманент 400 Светло-зеленый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [17] => Array
+                        (
+                            [product_id] => 1026852120
+                            [offer_id] => 50*90 Камея 430 Лиловый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [18] => Array
+                        (
+                            [product_id] => 1026852121
+                            [offer_id] => 50*90 Лондон 430 Виноградный
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [19] => Array
+                        (
+                            [product_id] => 1026852125
+                            [offer_id] => 70*140 Шарм 430 Пепельный
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [20] => Array
+                        (
+                            [product_id] => 1026852128
+                            [offer_id] => 50*100 Перманент 400 Темно-коричневый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [21] => Array
+                        (
+                            [product_id] => 1026852129
+                            [offer_id] => 30*60 ЖМ 340 Мороженое
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [22] => Array
+                        (
+                            [product_id] => 1026852130
+                            [offer_id] => 70*140 Лондон 430 Графит
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [23] => Array
+                        (
+                            [product_id] => 1026852131
+                            [offer_id] => 70*140 Камея 430 Лаванда
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [24] => Array
+                        (
+                            [product_id] => 1026852132
+                            [offer_id] => 70*140 Лондон 430 Металлик
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [25] => Array
+                        (
+                            [product_id] => 1026852133
+                            [offer_id] => 50*70 ГК Кокос
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [26] => Array
+                        (
+                            [product_id] => 1026852134
+                            [offer_id] => 50*100 Перманент 400 Коралловый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [27] => Array
+                        (
+                            [product_id] => 1026852135
+                            [offer_id] => 70*140 Лондон 430 Виноградный
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [28] => Array
+                        (
+                            [product_id] => 1026852136
+                            [offer_id] => 70*140 Шарм 430 Светло-лиловый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [29] => Array
+                        (
+                            [product_id] => 1026852137
+                            [offer_id] => 50*90 Лондон 430 Металлик
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [30] => Array
+                        (
+                            [product_id] => 1026852140
+                            [offer_id] => 50*90 Шарм 430 Светло-лиловый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [31] => Array
+                        (
+                            [product_id] => 1026852141
+                            [offer_id] => 70*140 Камея 430 Лиловый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [32] => Array
+                        (
+                            [product_id] => 1026852142
+                            [offer_id] => 30*60 ЖМ 340 Яблоко
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [33] => Array
+                        (
+                            [product_id] => 1026852157
+                            [offer_id] => 50*70 ГК Бежевый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [34] => Array
+                        (
+                            [product_id] => 1026852170
+                            [offer_id] => 100*150 Перманент 400  Коралловый
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                    [35] => Array
+                        (
+                            [product_id] => 1026852171
+                            [offer_id] => 30*60 ЖМ 340 Цитрус
+                            [is_fbo_visible] => 1
+                            [is_fbs_visible] => 1
+                            [archived] => 
+                            [is_discounted] => 
+                        )
+
+                )
+
+            [total] => 36
+            [last_id] => WzEwMjY4NTIxNzEsMTAyNjg1MjE3MV0=
+        )
+
+)

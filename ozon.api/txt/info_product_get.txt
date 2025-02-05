@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+				<html lang="ru">
+				<head>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Навигационный бар</title>
+					<link rel="stylesheet" href="styles.css">
+				</head>
+				<body>
+					<div class="container">
+						<nav class="navbar">
+							<ul class="nav-list">
+								<li class="nav-item active">Кнопка 1</li>
+								<li class="nav-item">Кнопка 2</li>
+								<li class="nav-item">Кнопка 3</li>
+							</ul>
+						</nav>
+					</div>
+				</body>
+				<styles>
+				* {
+					box-sizing: border-box;
+					margin: 0;
+					padding: 0;
+				}
+
+				body {
+					font-family: Arial, sans-serif;
+					background-color: #f0f0f0;
+				}
+
+				.container {
+					max-width: 800px; /* Ширина контейнера */
+					margin: 20px auto; /* Центрирование контейнера */
+					background-color: #fff;
+					border-radius: 10px;
+					box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				}
+
+				.navbar {
+					background-color: #fff;
+					padding: 10px 0;
+					border-bottom: 1px solid #ddd; /* Линия внизу навбара */
+				}
+
+				.nav-list {
+					display: flex;
+					justify-content: space-around; /* Пространство между кнопками */
+					list-style: none; /* Убираем стандартные маркеры */
+					padding: 0; /* Убираем отступы */
+				}
+
+				.nav-item {
+					padding: 15px 20px;
+					cursor: pointer;
+					transition: background-color 0.3s ease;
+				}
+
+				/* Стиль для активного пункта меню */
+				.nav-item.active {
+					background-color: #007bff; /* Цвет для активной кнопки */
+					color: #fff; /* Цвет текста для активной кнопки */
+					border-radius: 5px; /* Скругление углов у активной кнопки */
+				}
+
+				/* Эффект при наведении на кнопки */
+				.nav-item:hover {
+					background-color: #0056b3; /* Цвет при наведении */
+					color: #fff; /* Цвет текста при наведении */
+				}
+				</styles>
+				</html>

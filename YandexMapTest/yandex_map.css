@@ -1,0 +1,764 @@
+
+.table {
+	margin-bottom: 0;
+}
+
+/*---------------------------------------------------------------------------*/
+
+div#head {
+/*	background: #eee;*/
+	margin-bottom: 30px;
+}
+
+/* Изображение логотипа */
+div#logo img {
+	width: 100%;
+	max-width: 339px;
+}
+
+/*
+@media (min-width: 768px) {
+	div#logo {
+		text-align: center;
+	}
+}
+@media (min-width: 992px) {
+	div#logo {
+		text-align: left;
+	}
+}
+@media (min-width: 1200px) {
+	div#logo {
+		text-align: left;
+	}
+}
+*/
+
+/* Приглашение выбора города в шапке */
+p#cityprompt {
+	padding-left: 15px;
+	font-size: 16px;
+}
+
+input.typeahead {
+	border-color: lightgray;
+}
+
+/* Выбор города в шапке */
+a#headcity {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+/* Главная секция */
+div#main {
+	background: url("/img/main.jpg") no-repeat;
+	height: 728px;
+	position: relative;
+}
+
+/* Затемнение главной секции */
+div#main:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+}
+
+/* Контейнер в главной секции */
+div#main .container-fluid {
+	position: absolute;
+	bottom: 0;
+	z-index:1;
+	width: 100%;
+}
+
+/* Блок заголовков в главной секции */
+div#main div.title {
+	color: white;
+	padding-bottom: 200px;
+}
+
+/* Заголовок главной секции */
+div#main div.title h1 {
+	font-size: 56px;
+}
+
+/* Подзаголовок главной секции */
+div#main div.title h2 {
+}
+
+/* Строка формы поиска в главной секции */
+div#main div.search-row {
+	line-height: 50px;
+	padding: 32px 0;
+	background: rgba(0,0,50,0.2);
+}
+
+/* Элементы формы поиска */
+div#main div.search-row .form-control {
+	display: inline-block;
+}
+
+
+/* Ниспадающий список типа объекта */
+div#main select#type {
+	width: 250px;
+	padding-top: 7px;
+}
+
+/* Поле ввода площади */
+div#main input#square {
+	width: 150px;
+	padding-top: 7px;
+}
+
+/* Поле ввода места */
+div#main input#places {
+/*
+	width: 290px;
+	height: 46px;
+	font-size: 18px;
+	margin-top: 3px;
+*/
+}
+
+/* Поле ввода цены */
+div#main input#price {
+	width: 130px;
+	padding-top: 7px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Строка формы поиска на страницах */
+div#search div.search-row {
+	padding: 5px 0;
+	background: lightgray;
+}
+
+/* Элементы формы поиска */
+div#search div.search-row .form-control {
+	display: inline-block;
+	width: auto;
+}
+
+/* Ниспадающий список типа объекта */
+div#search select#type {
+	padding-top: 4px;
+}
+
+/* Поле ввода площади */
+div#search input#square {
+	width: 130px;
+	padding-top: 4px;
+}
+
+/* Поле ввода цены */
+div#search input#price {
+	width: 130px;
+	padding-top: 4px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Секция предложения */
+div.offer {
+	margin-bottom: 40px;
+}
+
+/* Четные секции предложений */
+div.even {
+	background-color: #F2F2F2;
+}
+
+/* Заголовок в предложениях */
+div.offer h2 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Подвал */
+div#footer {
+	color: gray;
+/*	margin-top: 50px;*/
+	padding-top: 26px;
+	background-color: #252525;
+}
+
+/* Заголовки подвала */
+div#footer h4 {
+	color: white;
+}
+
+/* Параграфы подвала */
+div#footer p, div#footer a {
+	color: gray;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+/* Контейнер карты */
+div#mapcontainer {
+	overflow: hidden;
+	position: inherit;
+}
+
+/* Карта */
+div#YMapsID {
+	height: 700px;
+}
+
+/*
+#map {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+*/
+canvas#canv {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 99999;
+	cursor: crosshair;
+	/*	border: 1px solid #aaa;*/
+}
+
+/*---------------------------------------------------------------------------*/
+/* Метки на карте НЕ РАБОТАЕТ */
+
+.ymaps-2-1-64-balloon__close + .ymaps-2-1-64-balloon__content {
+	margin-right: 0;
+}
+
+.ymaps-2-1-64-balloon__content {
+	padding: 0;
+}
+
+
+div.thumb {
+	font-size: 13px;
+	height: auto;
+	box-shadow: 0 0px;
+}
+
+/* Адрес */
+div.address {
+
+}
+
+/* Цена объекта */
+div.thumb div.price {
+	font-size: 12px;
+	font-weight: 700;
+	padding-bottom: 3px;
+	color: #0088cf;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Панели справа */
+
+
+
+/* Плитка объекта */
+div.selected {
+	background-color: lightgray;
+/*	outline: -webkit-focus-ring-color auto 5px;*/
+}
+
+
+
+/* Плитка объекта */
+div.tile {
+	padding-bottom: 5px;
+	font-size: 12px;
+	margin: 1px;
+}
+
+/* Плитка объекта наведенная */
+div.tile:hover {
+	cursor: pointer;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+/* Заголовок */
+div.tile div.title {
+	font-weight: bold;
+}
+
+/* Цена объекта */
+div.tile div.price {
+	font-size: 12px;
+	font-weight: 700;
+	padding-bottom: 3px;
+	color: #0088cf;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Наведенная строка в таблице объектов */
+table#objects {
+	margin-top: 9px;
+}
+
+/* Наведенная строка в таблице объектов */
+table#objects tr.object:hover {
+	cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Наведенная строка в таблице заявок на страхование */
+table#insurance tr:hover {
+	cursor: pointer;
+}
+
+/* Выделенная строка в таблице заявок на страхование */
+table#insurance tr.selected {
+	background-color: lightyellow;
+}
+
+
+
+/* Наведенная строка в таблице заявок на ипотеку */
+table#mortgage tr:hover {
+	cursor: pointer;
+}
+
+
+
+/* Наведенная строка в таблице объектов */
+table#userobjects tr.object:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* Появляющиеся формы */
+div.appearance-form {
+	display: none;
+}
+
+/* Появляющиеся элементы */
+div.appearance-element, button.appearance-element {
+	display: none;
+}
+
+/* Заголовок раздела в личном кабинете */
+div#lk h3 {
+	margin: 30px 0 0 10px;
+}
+
+
+/*
+.radio-inline, .checkbox-inline {
+	margin-left: 0;
+}
+*/
+/*
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+	margin-left: 0;
+}
+*/
+
+/* Блоки с чекбоксами */
+div.checkbox label, div.calc-checkbox label, div.checkbox-sub label {
+	background-color: #67ff67;
+	border-radius: 4px;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-left: 28px;
+	padding-bottom: 6px;
+	width: 100%;
+}
+
+/* Подчиненные блоки с чекбоксами */
+div.checkbox-sub label {
+	background-color: #adffad;
+}
+
+/* Ярлык для погашенных чекбоксов */
+div.checkbox.disabled label, div.calc-checkbox.disabled label {
+	color: gray;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Тарифы */
+
+/* Поле тарифа */
+form.tariff input {
+	width: 90px!important;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Общее для форм */
+
+/* Подзаголовки */
+div#registration h3, div#add h3, div#registration h4, div#add h4 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Форма регистрации */
+
+/* Кнопка Зарегистрироваться */
+div#registration button#register{
+	margin-top: 20px;
+}
+
+/* Строка дополнительной инфомации о карточках доктора */
+.owner {
+    display: none;
+}
+
+
+/*---------------------------------------------------------------------------*/
+/* Формы авторизации и смены пароля */
+
+
+div#registration, div#login, div#password {
+	margin-top: 60px;
+	margin-bottom: 240px;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Формы добавления заявок и объектов */
+
+
+div#lk, div#add {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+/* Подзаголовки */
+div#add h3, div#add h4 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+/* Ниспадающие списки */
+div#add select {
+	width: 260px;
+}
+
+/* Кнопка */
+/*
+div#add .btn{
+	margin-top: 20px;
+}
+*/
+
+/*-------------------------------------*/
+
+/* Опции при таблице */
+div.table-options {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Страницы объекта */
+
+/* Адрес объекта */
+div#address {
+	font-size: 22px;
+}
+
+/* Цена объекта */
+div#object div#price {
+	font-size: 26px;
+}
+
+/* Цена объекта, цифры */
+div#object div#price span {
+	font-weight: bold;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+/* Страница объекта в ЛК */
+
+div#uploaded-files {
+	height: 160px;
+}
+
+div#uploaded-files div:hover {
+	opacity: 0.3;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+
+/* Ячейка номера карты доктора */
+td.doc-card-number {
+	white-space: nowrap;
+}
+
+
+
+
+/* Номер карты резидента */
+b.level-0 {
+	color: black;
+}
+
+/* Номер карты медицинского представителя */
+b.level-1 {
+	color: coral;
+}
+
+/* Номер карты врача */
+b.level-2 {
+	color: green;
+}
+
+/* Номер карты покупателя */
+b.level-3 {
+	color: blue;
+}
+
+/* Номер не активированной карты */
+b.level-4 {
+	color: gray;
+}
+
+
+
+/* Телефон */
+td.phone, span.nowrap {
+	white-space: nowrap;
+}
+
+/* Ошибки при заполнении полей */
+.text-error {
+	color: #b94a48;
+	font-weight: bold;
+	background-color: yellow;
+}
+
+/* Комментарии */
+td.small, span.small {
+	font-size: 10px;
+}
+
+/* Комментарии */
+span.small {
+	color: gray;
+}
+
+
+/* Ячейка без значения */
+td.null {
+	background-color: coral;
+}
+
+/* Ячейка с нулевым значением */
+td.zero-value {
+	background-color: lightgray;
+}
+
+
+/* Ячейка количества заказов */
+td.order_2 {
+	background-color: #e1f5fe;
+}
+td.order_3 {
+	background-color: #b3e5fc;
+}
+td.order_4 {
+	background-color: #81d4fa;
+}
+td.order_5 {
+	background-color: #4fc3f7;
+}
+td.order_6 {
+	background-color: #29b6f6;
+}
+td.order_7 {
+	background-color: #03a9f4;
+}
+td.order_8 {
+	background-color: #039be5;
+}
+td.order_9 {
+	background-color: #0288d1;
+}
+td.order_10 {
+	background-color: #0277bd;
+}
+td.order_11 {
+	background-color: #01579b;
+}
+
+/* Карта имеет скидку 15% */
+td.percent-15 {
+	background-color: #FFFFCC;
+}
+
+td.card-tag {
+	background-color: pink;
+/*
+	pink
+ 	lightpink
+ 	hotpink
+ 	deeppink
+ 	palevioletred
+ 	mediumvioletred
+*/
+}
+
+
+
+
+
+
+/* Подсказка */
+.levels-tooltip {
+/*	border-bottom: 1px dashed blue;*/
+}
+
+/* Подсказка */
+.levels-tooltip + .tooltip {
+	font-size: 14px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Подсказка */
+.levels-tooltip + .tooltip > .tooltip-inner {
+	color: black;
+	text-align: left;
+	max-width: 300px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+}
+
+
+
+/* Карта врачей медицинского представителя */
+div#doctors-map {
+	margin-bottom: 20px;
+}
+
+/* Карта врачей медицинского представителя */
+div#doctors-map > ymaps {
+	border: 1px solid #ddd;
+}
+
+
+/*---------------------------------------------------------------------------*/
+/* Стили для typeahead */
+
+/* Ниспадающий список */
+.tt-menu {
+	width: 322px;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Стили для carousel */
+
+div.carousel {
+	margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Адаптация */
+
+/* Блок личного кабинета */
+div#lk {
+	min-height: 690px;
+}
+
+div#lk div#loader {
+	display: none;
+}
+
+
+/* Ноутбук */
+@media (max-width: 1200px) {
+
+	/* Блок заголовков в главной секции */
+	div#main div.title {
+		padding-bottom: 150px;
+	}
+
+
+	/* Блок личного кабинета */
+	div#lk {
+		min-height: 679px;
+	}
+
+}
+
+/* Планшет */
+@media (max-width: 992px) {
+
+	/* Блок заголовков в главной секции */
+	div#main div.title {
+		padding-bottom: 100px;
+	}
+
+
+	/* Блок личного кабинета */
+	div#lk {
+		min-height: 618px;
+	}
+
+}
+
+/* Мобильный */
+@media (max-width: 768px) {
+
+	/* Главная секция */
+	div#main {
+		height: 650px;
+	}
+
+	/* Блок заголовков в главной секции */
+	div#main div.title {
+		padding-bottom: 10px;
+	}
+
+	/* Заголовок главной секции */
+	div#main div.title h1 {
+		font-size: 36px;
+	}
+
+	/* Подзаголовок главной секции */
+	div#main div.title h2 {
+		font-size: 25px;
+	}
+
+
+	/* Блок личного кабинета */
+	div#lk {
+		min-height: 100px;
+	}
+
+}
+/*---------------------------------------------------------------------------*/

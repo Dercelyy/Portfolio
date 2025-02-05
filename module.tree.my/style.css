@@ -1,0 +1,48 @@
+.tree {
+  font-size: 16px;
+}
+
+.tree-node-header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.tree-node {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.tree-node-square {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 60px;
+  height: 44px;
+  background-color: #479047;
+  cursor: pointer;
+}
+
+.tree-node-children {
+  display: show;
+}
+
+.tree-node-children > li {
+  display: block;
+  position: relative;
+}
+
+.tree-node-text {
+  cursor: pointer;
+}
+#confirmationModal {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+}

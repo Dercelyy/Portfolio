@@ -1,0 +1,9 @@
+Array
+(
+    [code] => 7
+    [message] => Invalid Api-Key, please contact support
+    [details] => Array
+        (
+        )
+
+)
