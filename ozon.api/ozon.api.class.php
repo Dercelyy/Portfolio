@@ -170,8 +170,8 @@
 			// Инициализируем cURL сессию
 			$curl_handle = curl_init();
 
-			$client_id = '1603552';
-			$api_key = 'abfb900c-cc9f-4cba-b1ef-e48e04b50041';
+			$client_id = '';
+			$api_key = '';
 
 			// Устанавливаем параметры запроса
 			curl_setopt($curl_handle, CURLOPT_URL, $url);
